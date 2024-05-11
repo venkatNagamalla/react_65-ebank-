@@ -43,7 +43,7 @@ class Login extends Component {
             onChange={e => this.setState({userId: e.target.value})}
             placeholder="Enter User ID"
             type="text"
-            id="userID"
+            id="userId"
             value={userId}
           />
         </div>
